@@ -24,6 +24,8 @@
 #include <media/hardware/HardwareAPI.h> // For VideoNativeHandleMetadata
 #include "CameraDevice_1_0.h"
 
+#include <fcntl.h>
+
 namespace android {
 namespace hardware {
 namespace camera {
